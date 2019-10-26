@@ -16,5 +16,4 @@ client = MyClient()
 
 
 with open(".token") as f:
-    print(f.read().strip())
     client.run(f.read().strip())
